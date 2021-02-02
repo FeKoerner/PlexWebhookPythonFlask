@@ -1,7 +1,7 @@
 from flask import Flask, request
 import json
 
-# Webhook in Plex: http://192.168.188.26:5000/plex
+# Webhook in Plex: http://<plex server ip>:5000/plex
 # Webhook Documentation: https://support.plex.tv/articles/115002267687-webhooks/
 
 app = Flask(__name__)
